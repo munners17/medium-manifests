@@ -12,3 +12,7 @@ spec:
     git: git@github.com:munners17/medium-manifests.git
     path: helm-charts/fluxcd-demo
     ref: fluxcd-demo
+  values:
+    extraEnvs:
+      - name: subdomain
+        value: testing
