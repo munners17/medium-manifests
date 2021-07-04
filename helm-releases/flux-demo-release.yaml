@@ -9,7 +9,7 @@ spec:
   releaseName: fluxcd-demo
   targetNamespace: fluxcd-demo
   chart:
-    git: git@github.com:munners17/medium-manifests.git
+    git: git@github.com:munners17/badrepo.git
     path: helm-charts/fluxcd-demo
     ref: fluxcd-demo
   values:
